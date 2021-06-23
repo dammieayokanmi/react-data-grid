@@ -255,7 +255,7 @@ export default function FilterDataGrid() {
       });
     }
     const tmp = filterGroups[filter];
-    const arrayCount = tmp.map((count)=>{return count.numberOfContact})
+    // const arrayCount = tmp.map((count)=>{return count.numberOfContact})
 
   
     let updateGroup = [...tmp];
